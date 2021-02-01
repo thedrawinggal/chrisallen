@@ -345,6 +345,3 @@ $value = cltv8_get_theme_option( 'value_name' );
 function cltv8_get_theme_option( $id = '' ) {
 	return cltv8_theme_settings::get_theme_option( $id );
 }
-
-
-flush_rewrite_rules();
